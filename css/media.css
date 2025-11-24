@@ -1,0 +1,283 @@
+/* Tablets (768px - 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .headder,
+  .banner_inner,
+  .main_div,
+  .first_div,
+  .digit_market,
+  .info,
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .form_vertical,
+  .card,
+  .career_box,
+  .paragraph {
+    width: 80% !important;
+    margin: 10px auto;
+  }
+
+  .main_containt {
+    margin: 20px auto;
+  }
+
+  .menu {
+    gap: 20px;
+  }
+
+  .right_div img {
+    width: 80%;
+  }
+
+  .banner_content_btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub_box {
+    justify-content: center;
+  }
+}
+
+/* Mobiles (427px - 768px) */
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .headder,
+  .banner_inner,
+  .main_div,
+  .first_div,
+  .digit_market,
+  .info,
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .headder_right {
+    margin-top: 18px;
+    justify-content: center;
+  }
+
+  .banner_content h1 {
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .banner_content p,
+  .banner_content ul li {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .banner_inner {
+    padding: 20px;
+  }
+
+  .banner_content_btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner_form {
+    width: 90%;
+  }
+
+  .form_vertical {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    right: 0;
+  }
+
+  .third_part {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .sub_box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .career_box {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .card,
+  .paragraph {
+    width: 90%;
+  }
+
+  .menu {
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .headding2 a {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .btn {
+    justify-content: center;
+  }
+
+  .btn button {
+    width: 80%;
+  }
+
+  .right_div img {
+    width: 100%;
+  }
+
+  .image_box,
+  .img_content {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+/* Small Mobiles (377px - 426px) */
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+  .headder,
+  .banner_inner,
+  .main_div,
+  .first_div,
+  .digit_market,
+  .info,
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .headder_right {
+    margin-top: 18px;
+  }
+
+  .banner_content h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .banner_content p,
+  .banner_content ul li {
+    font-size: 16px;
+  }
+
+  .banner_form {
+    width: 100%;
+  }
+
+  .form_vertical {
+    width: 90%;
+    padding: 10px;
+    right: 0;
+  }
+
+  .third_part {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 24px;
+    gap: 10px;
+  }
+
+  .sub_box,
+  .card,
+  .paragraph,
+  .career_box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    justify-content: center;
+  }
+
+  .btn button {
+    width: 90%;
+  }
+
+  .image_box,
+  .img_content {
+    width: 95%;
+    padding: 20px;
+  }
+}
+
+/* Very Small Mobiles (max 376px) */
+@media only screen and (max-width: 376px) {
+  .headder,
+  .banner_inner,
+  .main_div,
+  .first_div,
+  .digit_market,
+  .info,
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .headder_right {
+    margin-top: 18px;
+  }
+
+  .banner_content h1 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .banner_content p,
+  .banner_content ul li {
+    font-size: 14px;
+  }
+
+  .form_vertical {
+    width: 95%;
+    padding: 10px;
+    right: 0;
+  }
+
+  .third_part {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 20px;
+    gap: 10px;
+  }
+
+  .sub_box,
+  .card,
+  .paragraph,
+  .career_box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn button {
+    width: 100%;
+  }
+
+  .image_box,
+  .img_content {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}
